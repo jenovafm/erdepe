@@ -5,7 +5,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
 net user CryptBB_RDP Devataasm!666 /add >nul
 net localgroup
-net localgroup administrators administrator /add >nul
+net localgroup administrators "administrator" /add >nul
 net user administrator /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
